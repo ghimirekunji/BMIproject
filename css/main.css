@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid purple; */
+}
+body{
+
+    font-size: 16px;
+}
+.maincontainer{
+    margin: 0 auto;
+    max-width: 1000px;
+    /* border:2px solid red; */
+}
+
+
+
+.title h1{
+  background-color: lightgrey;
+    font-size: 250%;
+    color: green;
+    margin: 30px auto;
+    text-align: center;
+    border:2px solid lightgray;
+    border-radius: 56px;
+}
+.input-section{
+    /* border:2px solid violet; */
+    display: flex;
+    margin: 20px auto;
+}
+
+input{
+
+    height: 40px;
+    border: 1px solid #7070F1;
+    margin-right: 5px;
+    font-size: 110%;
+    padding: 0 5px;
+    border: 1px solid grey;
+    border-radius: 46 px;
+    
+}
+
+.button{
+
+    background-color: lightgray;
+    color: green;
+    font-size: 110%;
+    font-weight: 300;
+    width: 130px;
+    border-radius: 10%;
+}
+
+.main-section{
+    /* border:2px solid black; */
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.left-side{
+    border: 1px solid green;
+    margin-right: 10px; 
+    width: 50%;
+    padding: 40px 0 0 40px;
+    
+}
+.left-side li{
+    
+    font-size: 150%;
+}
+.right-side{
+    border: 1px solid green;
+}
+
+
+.result-section{
+    /* border:2px solid yellow; */
+    border: 1px solid lightgray;
+    border-radius: 46px;
+    height: 80px;
+    background: lightgray;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-section p{
+    color:green;
+    font-size: 160%;
+}

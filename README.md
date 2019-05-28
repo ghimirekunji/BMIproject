@@ -1,1 +1,1 @@
-# BMIproject
+# A simple BMI calclator

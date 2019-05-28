@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BMI Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css">
+</head>
+<body>
+    
+    <div class="maincontainer">
+        
+        <section class="title">
+            <h1>Calculate your BMI</h1>
+        </section>
+        <div class="input-section" id="input-part">
+            <input type="number" placeholder="Mass in Kilogram" id="mass" required>
+            <input type="number" placeholder="height in Meter" id="height" required>
+            <button class="button" id="button" >Calculate</button>
+        </div>
+        <div class="main-section">
+            <div class="left-side" id="left-side">
+                <ul>
+                    <li class ="liclass" id ="Underweight">Underweight: BMI is less than 18.5</li>
+                    <li class ="liclass" id ="Normal">Normal weight: BMI is 18.5 to 24.9</li>
+                    <li class ="liclass" id ="Overweight">Overweight: BMI is 25 to 29.9</li>
+                    <li class ="liclass" id ="Obese">Obese: BMI is 30 or more</li>
+            
+                </ul>
+            </div>
+            <div class="right-side">
+                <img src="./assets/default.jpg" alt="default-image">
+            </div>
+        </div>
+        <div class="result-section">
+            
+            <p>What is Your BMI ?</p>
+
+        </div>
+        
+    </div>
+        <script src="./javascript/main.js"></script>
+</body>
+</html>
